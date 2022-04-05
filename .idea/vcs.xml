@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/TSPSA/examples/conquering-seven-hills" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TSPSA/examples/osmnx-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TSPSA/examples/simulated-annealing-tsp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wsg/segment" vcs="Git" />
+  </component>
+</project>

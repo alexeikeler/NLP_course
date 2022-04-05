@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1590</x>
+      <y>349</y>
+      <width>221</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="table_grid_layout">
+     <item row="0" column="0">
+      <widget class="QTableView" name="table_view"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>20</y>
+      <width>400</width>
+      <height>148</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="settings_grid_layout">
+     <item row="3" column="0" colspan="3">
+      <widget class="QComboBox" name="available_texts_combobox"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="start_button">
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" colspan="2">
+      <widget class="QSpinBox" name="first_n_frequent_words_spinbox"/>
+     </item>
+     <item row="1" column="0" colspan="3" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="text_analysis_settings_label">
+       <property name="text">
+        <string>Select book</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="data_table_label">
+    <property name="geometry">
+     <rect>
+      <x>1760</x>
+      <y>190</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Table settings</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="plot_settings_label">
+    <property name="geometry">
+     <rect>
+      <x>1530</x>
+      <y>190</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Plot settings</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="plot_styles_combobox">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>220</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="plot_color_combobox">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>250</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1720</x>
+      <y>220</y>
+      <width>183</width>
+      <height>102</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="table_settings_box_layout">
+     <item>
+      <widget class="QPushButton" name="sort_table_by_words_button">
+       <property name="text">
+        <string>Sort by words</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sort_by_frequency_asc_button">
+       <property name="text">
+        <string>Sort by frequency (asc)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sort_by_frequency_desc_button">
+       <property name="text">
+        <string>Sort by frequency (desc)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>1471</width>
+      <height>1001</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QWidget" name="plot_widget" native="true"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>1690</x>
+      <y>180</y>
+      <width>20</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>170</y>
+      <width>400</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>35</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
