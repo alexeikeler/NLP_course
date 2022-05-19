@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>1080</height>
+    <height>964</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>1590</x>
-      <y>349</y>
+      <x>1500</x>
+      <y>440</y>
       <width>221</width>
-      <height>671</height>
+      <height>461</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="table_grid_layout">
@@ -34,7 +34,7 @@
      <rect>
       <x>1500</x>
       <y>20</y>
-      <width>400</width>
+      <width>221</width>
       <height>148</height>
      </rect>
     </property>
@@ -77,8 +77,8 @@
    <widget class="QLabel" name="data_table_label">
     <property name="geometry">
      <rect>
-      <x>1760</x>
-      <y>190</y>
+      <x>1560</x>
+      <y>290</y>
       <width>101</width>
       <height>22</height>
      </rect>
@@ -90,7 +90,7 @@
    <widget class="QLabel" name="plot_settings_label">
     <property name="geometry">
      <rect>
-      <x>1530</x>
+      <x>1560</x>
       <y>190</y>
       <width>91</width>
       <height>22</height>
@@ -103,7 +103,7 @@
    <widget class="QComboBox" name="plot_styles_combobox">
     <property name="geometry">
      <rect>
-      <x>1500</x>
+      <x>1530</x>
       <y>220</y>
       <width>161</width>
       <height>28</height>
@@ -113,7 +113,7 @@
    <widget class="QComboBox" name="plot_color_combobox">
     <property name="geometry">
      <rect>
-      <x>1500</x>
+      <x>1530</x>
       <y>250</y>
       <width>161</width>
       <height>28</height>
@@ -123,8 +123,8 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>1720</x>
-      <y>220</y>
+      <x>1520</x>
+      <y>320</y>
       <width>183</width>
       <height>102</height>
      </rect>
@@ -171,10 +171,10 @@
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>1690</x>
-      <y>180</y>
+      <x>1730</x>
+      <y>9</y>
       <width>20</width>
-      <height>160</height>
+      <height>991</height>
      </rect>
     </property>
     <property name="orientation">
@@ -184,9 +184,61 @@
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>1500</x>
+      <x>1490</x>
       <y>170</y>
-      <width>400</width>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>1480</x>
+      <y>10</y>
+      <width>20</width>
+      <height>991</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>1490</x>
+      <y>0</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>1490</x>
+      <y>280</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>1490</x>
+      <y>910</y>
+      <width>251</width>
       <height>20</height>
      </rect>
     </property>
@@ -201,7 +253,7 @@
      <x>0</x>
      <y>0</y>
      <width>1920</width>
-     <height>35</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

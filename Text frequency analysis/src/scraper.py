@@ -4,7 +4,7 @@ from typing import Any
 class GutenbergScraper:
 
     @staticmethod
-    def pull_text(url: str) -> str | None:
+    def pull_text(url: str):
 
         try:
             response: Any = request.urlopen(url)
